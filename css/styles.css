@@ -90,6 +90,27 @@ body {
 /******* SERVICES *******/
 
 
+/******* HIPAA *******/
+
+.hipaa_intro {
+	width: 50%;
+	position: relative;
+	float: left;
+	top: 70px;
+	left: 40px;
+	border-left: 1.5px solid black;
+	margin-bottom: 50px;
+}
+
+.hipaa_intro p{
+	margin-left: 25px;
+}
+
+.hipaa_intro h1{
+	margin-top: -15px;
+	margin-left: 25px;
+}
+
 /****** SUPPORT TOOLS ******/
 .supporttools {
 	background: #FCFEF9;
