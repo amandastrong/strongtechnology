@@ -155,3 +155,29 @@ a:hover {
 a:active {
 	color: #000;
 }
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+  
+  }
+
+@media (max-width: 640px){
+
+
+}
+
+/* Clearfix */
+
+.clearfix {
+	clear:both;
+}
