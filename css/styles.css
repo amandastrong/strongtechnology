@@ -83,8 +83,67 @@ body {
 	height: auto;
 	top: 40px;
 	left: 50%;
-	border-bottom: 1.5px solid black;
+	border-left: 2px solid black;
 	margin-bottom: 50px;
+}
+
+.intro p {
+	margin-left: 25px;
+	font-size: 1em;
+}
+
+.intro_2 {
+	width: 100%;
+	position: relative;
+	float: left;
+	height: auto;
+	background-color: #FCFEF9;
+	color: #0f0f0f;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.intro_2 p{
+	margin: 25px 60px;
+	text-align: center;
+	font-size: 1.1em;
+	border-bottom: 4px solid #3e606f;
+	border-top: 4px solid #3e606f;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.intro_3 {
+	width: 50%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: transparent;
+	margin-bottom: 60px;
+	border-right: 2px solid black;
+}
+
+.intro_3 h1,
+.intro_4 h1 {
+	font-size: 1.4em;
+	margin-left: 15px;
+}
+
+.intro_3 p{
+	margin: 20px 15px;
+}
+
+.intro_4 {
+	width: 49.5%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: transparent;
+}
+
+.intro_4 p{
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 /******* SERVICES *******/
