@@ -64,8 +64,9 @@ body {
 }
 
 .nav li {
-	display: inline;
+	display: inline-block;
 	padding: 8px;
+	margin-bottom: 2px;
 }
 
 .nav a {
@@ -209,6 +210,7 @@ a:focus {
 
 a:hover {
 	color: #3e606f;
+	border-bottom: 1px solid #3e606f;
 }
 
 a:active {
@@ -219,6 +221,11 @@ a:active {
 
 @media (max-width: 800px) {
 
+	/***NAV***/
+
+	.nav {
+		text-align: center;
+	}
 
 }
 
@@ -226,13 +233,17 @@ a:active {
 
 @media (max-width: 768px) {
 
-
-  
-  }
+	
+}
 
 @media (max-width: 640px){
 
+	/***NAV***/
 
+	.nav a {
+		font-size: .8em;
+	}
+  
 }
 
 /* Clearfix */
