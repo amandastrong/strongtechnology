@@ -78,12 +78,23 @@ body {
 }
 
 /****** INDEX ******/
+
+.intro_pic {
+		width: 50%;
+		position: relative;
+		float: left;
+		margin-top: 40px;
+		height: 400px;
+		background-color: red;
+	}
+
 .intro {
 	width: 40%;
 	position: relative;
+	float: left;
 	height: auto;
+	min-height: 400px;
 	top: 40px;
-	left: 50%;
 	border-left: 2px solid black;
 	margin-bottom: 50px;
 }
@@ -233,6 +244,37 @@ a:active {
 
 @media (max-width: 768px) {
 
+	.logo {
+		width: 100%;
+		height: 90px;
+		background-color: #d1dbbd;
+		position: relative;
+		top: 0;
+	}
+
+	.logo img{
+		padding-left: 8px;
+		width: 247px;
+		height: 90px;
+	}
+
+	.intro_pic {
+		width: 70%;
+		margin-top: 40px;
+		margin-left: 15%;
+		height: 300px;
+	}
+
+	.intro {
+		width: 80%;
+		position: relative;
+		height: auto;
+		min-height: 200px;
+		float: left;
+		border-left: 2px solid black;
+		margin-top: 20px;
+		margin-left: 10%;
+	}
 	
 }
 
@@ -242,6 +284,48 @@ a:active {
 
 	.nav a {
 		font-size: .8em;
+	}
+
+	.intro_pic {
+		width: 90%;
+		margin-top: 20px;
+		height: 300px;
+		margin-left: 5%;
+	}
+
+	.intro p {
+		font-size: .9em;
+	}
+
+	.intro_2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.intro_2 p{
+		margin: 25px 40px;
+		font-size: 1em;
+	}
+
+	.intro_3 {
+		width: 100%;
+		background-color: transparent;
+		margin-bottom: 5px;
+		border-right: none;
+	}
+
+	.intro_3 h1,
+	.intro_4 h1 {
+		font-size: 1.2em;
+	}
+
+	.intro_3 p,
+	.intro_4 p {
+		font-size: .9em;
+	}
+
+	.intro_4 {
+		width: 100%;
 	}
   
 }
