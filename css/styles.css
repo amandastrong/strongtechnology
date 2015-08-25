@@ -227,6 +227,18 @@ body {
 	margin-top: 50px;
 }
 
+.social {
+	margin-bottom: 50px;
+}
+
+.IT h1,
+.HIPAA h1,
+.sales h1,
+.social h1{
+	text-align: center;
+	margin-top: 30px;
+}
+
 .IT p,
 .HIPAA p,
 .sales p,
@@ -235,7 +247,10 @@ body {
 	margin-right: 30px;
 	margin-top: 50px;
 	text-align: center;
+	color: #fcfef9;
 }
+
+/******LAST FRAME*****/
 
 div:hover {
 	height: auto;
