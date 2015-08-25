@@ -214,13 +214,15 @@ body {
 .HIPAA,
 .sales,
 .social {
-	background-color: #3e606f;
+	background-color: #FCFEF9;
 	position: relative;
 	float: left;
 	height: 100px;
 	width: 70%;
 	margin-left: 15%;
 	border-bottom: 2px solid black;
+	transition: height 2s;
+	transition: background 1s linear;
 }
 
 .IT {
@@ -247,15 +249,36 @@ body {
 	margin-right: 30px;
 	margin-top: 50px;
 	text-align: center;
-	color: #fcfef9;
+	color: black;
+	opacity: 0;
+	transition: opacity 0s;
 }
+
 
 /******LAST FRAME*****/
 
-div:hover {
-	height: auto;
-	transition: height 3s;
+.IT:hover,
+.HIPAA:hover,
+.sales:hover,
+.social:hover {
+	height: 200px;
+	transition: height 2s;
+	background: #d1dbbd;
+	background-image:
+    	linear-gradient( 
+    	to top,
+     	#d1dbbd, 
+      	#FCFEF9);
 }
+
+.IT:hover p,
+.HIPAA:hover p,
+.sales:hover p,
+.social:hover p{
+  opacity: 1;
+  transition: opacity 4s;
+}
+
 
 /*************** LINKS ***************/
 
@@ -405,6 +428,38 @@ a:active {
 
 	.hipaa_intro h1{
 		font-size: 1em;
+	}
+
+	.IT,
+	.HIPAA,
+	.sales,
+	.social {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.IT h1,
+	.HIPAA h1,
+	.sales h1,
+	.social h1 {
+		font-size: 1.3em;
+	}
+
+	.IT p,
+	.HIPAA p,
+	.sales p,
+	.social p {
+		font-size: .95em;
+	}
+
+	/******LAST FRAME*****/
+
+	.IT:hover,
+	.HIPAA:hover,
+	.sales:hover,
+	.social:hover {
+		height: 250px;
+		transition: height 2s;
 	}
 
 }
