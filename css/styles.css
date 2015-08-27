@@ -328,6 +328,28 @@ body {
 }
 
 
+/*************** OUR STAFF ***************/
+
+.split_1 {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	float: left;
+	background-color:red;
+}
+
+.split_2 {
+	width: 50%;
+	height: 350px;
+	position: relative;
+	float: left;
+	background-color: blue;
+}
+
+.profile img {
+	margin-top: 25px;
+}
+
 /*************** LINKS ***************/
 
 a:link,
