@@ -79,29 +79,42 @@ body {
 
 /****** INDEX ******/
 
-.intro_pic {
-		width: 50%;
-		position: relative;
-		float: left;
-		margin-top: 40px;
-		height: 400px;
-		background-color: transparent;
-	}
-
 .intro {
-	width: 40%;
+	width: 50%;
 	position: relative;
 	float: left;
 	height: auto;
 	min-height: 400px;
 	top: 40px;
-	border-left: 2px solid black;
 	margin-bottom: 50px;
+	border-left: 2px solid black;
+	padding-left: 10px;
+	margin-left: 10px;
 }
 
 .intro p {
-	margin-left: 25px;
+	margin-left: 10px;
+	padding-left: 5px;
 	font-size: 1em;
+	margin-right: 35px;
+}
+
+.intro_pic {
+	width: 40%;
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	height: 400px;
+	margin-right: 10px;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+.intro_pic img {
+	margin-bottom: 50px;
+	margin-right: 5px;
+	float: right;
+
 }
 
 .intro_2 {
@@ -328,26 +341,35 @@ body {
 }
 
 
-/*************** OUR STAFF ***************/
+/*************** ABOUT ***************/
 
-.split_1 {
-	width: 50%;
-	height: 350px;
-	position: relative;
-	float: left;
-	background-color:red;
+.split,
+.split_end {
+	height: auto;
+	min-height: 300px;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-.split_2 {
-	width: 50%;
-	height: 350px;
-	position: relative;
-	float: left;
-	background-color: blue;
+.split_end {
+	margin-bottom: 50px;
 }
 
 .profile img {
-	margin-top: 25px;
+	margin-left: 0;
+	border-right: 2.75px solid black;
+}
+
+.split h1,
+.split_end h1{
+	margin-left: 320px;
+	margin-top: -305px;
+}
+
+.split p,
+.split_end p {
+	margin-left: 320px;
 }
 
 /*************** LINKS ***************/
@@ -379,6 +401,27 @@ a:active {
 		text-align: center;
 	}
 
+/***** HOME ********/
+
+	.intro_pic {
+		margin-left: 30px;
+	}
+
+	.intro{
+		margin-top: 30px;
+	}
+
+/****** About ******/
+
+	.split,
+	.split_end {
+		height: auto;
+		min-height: 300px;
+		margin-top: 50px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
 }
 
 
@@ -403,22 +446,32 @@ a:active {
 
 	/***** HOME ******/
 
-	.intro_pic {
-		width: 70%;
-		margin-top: 40px;
-		margin-left: 15%;
-		height: 300px;
+	.intro_pic img {
+		margin-left: 10%;
+		float: left;
+	}
+
+	.intro_pic{
+		width: 90%;
+		height: 350px;
+		margin-bottom: 0;
 	}
 
 	.intro {
-		width: 80%;
-		position: relative;
-		height: auto;
+		width: 90%;
 		min-height: 200px;
-		float: left;
-		border-left: 2px solid black;
-		margin-top: 20px;
-		margin-left: 10%;
+	}
+
+	/****** About ******/
+
+	.split h1,
+	.split_end h1{
+		font-size: 1.2em;
+	}
+
+	.split p,
+	.split_end p {
+		font-size: .9em;
 	}
 	
 }
@@ -433,15 +486,18 @@ a:active {
 
 	/****** HOME *******/
 
+	.intro_pic img {
+		width: 257px;
+		height: 305px;
+		margin-left: 0;
+	}
+
 	.intro_pic {
-		width: 90%;
-		margin-top: 20px;
-		height: 300px;
 		margin-left: 5%;
 	}
 
-	.intro p {
-		font-size: .9em;
+	.intro {
+		margin-top: -40px;
 	}
 
 	.intro_2 {
@@ -555,6 +611,30 @@ a:active {
 	.social:hover {
 		height: 250px;
 		transition: height 2s;
+	}
+
+	/****** About ******/
+
+	.split,
+	.split_end {
+		margin-left: 5px;
+	}
+
+	.split h1,
+	.split_end h1{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.split p,
+	.split_end p {
+		margin-left: 0;
+	}
+
+	.split img,
+	.split_end img {
+		width: 240px;
+		height: 240px;
 	}
 
 }
