@@ -194,8 +194,34 @@ body {
 }
 
 /****** SUPPORT TOOLS ******/
+
+.supportlinks_1,
+.supportlinks,
+.supportlinks_end {
+	width: 80%;
+	height: auto;
+	min-height: 200px;
+	margin-left: 10%;
+	border-bottom: 2px solid black;
+}
+
+.supportlinks_end {
+	border-bottom: none;
+}
+
+.supportlinks_1 {
+	margin-top: 50px;
+}
+
+.break {
+	width: 95%;
+	height: 40px;
+	margin-left: 2.5%;
+	border-bottom: 4px solid #3e606f;
+}
+
 .supporttools {
-	background: #FCFEF9;
+	background-color: #FCFEF9;
   	height: 150px;
   	width: 45%;
   	float: left;
