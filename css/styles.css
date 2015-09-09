@@ -400,6 +400,10 @@ body {
 	margin-bottom: 50px;
 }
 
+.profile i{
+	font-size: .75em;
+}
+
 .profile img {
 	margin-left: 0;
 	padding: 3px;
