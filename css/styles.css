@@ -295,6 +295,24 @@ body {
 	text-decoration: none;
 }
 
+.twitter img,
+.facebook img,
+.linkedin img,
+.google img,
+.wordpress img {
+	opacity: 1;
+	transition: opacity 0s;
+}
+
+.twitter:hover img,
+.facebook:hover img,
+.linkedin:hover img,
+.google:hover img,
+.wordpress:hover img{
+	opacity: .5;
+	transition: opacity 0s;
+}
+
 /*************** SERVICES ***************/
 
 .IT,
@@ -384,18 +402,19 @@ body {
 
 .profile img {
 	margin-left: 0;
-	border-right: 2.75px solid black;
+	padding: 3px;
+	border: 2.75px solid black;
 }
 
 .split h1,
 .split_end h1{
-	margin-left: 320px;
+	margin-left: 330px;
 	margin-top: -305px;
 }
 
 .split p,
 .split_end p {
-	margin-left: 320px;
+	margin-left: 330px;
 }
 
 /*************** LINKS ***************/
@@ -648,13 +667,13 @@ a:active {
 
 	.split h1,
 	.split_end h1{
-		margin-left: 0;
+		margin-left: 3px;
 		margin-top: 10px;
 	}
 
 	.split p,
 	.split_end p {
-		margin-left: 0;
+		margin-left: 3px;
 	}
 
 	.split img,
